@@ -22,6 +22,6 @@ public class boru : MonoBehaviour
             yonet.skor_arttýr(10);
             Destroy(gameObject);
         }
-        transform.Translate(-0.5f * Time.deltaTime, 0, 0);
+        transform.Translate(-1f * Time.deltaTime, 0, 0);
     }
 }

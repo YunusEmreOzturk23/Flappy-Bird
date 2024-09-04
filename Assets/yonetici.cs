@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 
 
@@ -8,7 +9,7 @@ public class yonetici : MonoBehaviour
 {
     public GameObject boru;
     int skor = 0;
-    public TextMesh skor_txt;
+    public TextMeshProUGUI skor_txt;
     
     void Start()
     {
